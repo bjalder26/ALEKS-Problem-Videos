@@ -1,0 +1,58 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container for the module section */
+.phpally-ignore {
+    margin-bottom: 30px;
+}
+
+/* Module Title */
+.phpally-ignore p {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* Ordered List Styling */
+.phpally-ignore ol {
+    padding-left: 20px;
+    list-style-position: inside;
+}
+
+/* List Item Styling */
+.phpally-ignore ol li {
+    margin-bottom: 10px;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Links Styling */
+.phpally-ignore ol li a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.phpally-ignore ol li a:hover {
+    color: #3498db;
+}
+
+/* Spacing after modules */
+.phpally-ignore p + p {
+    margin-top: 20px;
+}
